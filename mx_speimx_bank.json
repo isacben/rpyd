@@ -1,0 +1,7 @@
+{
+    "amount": 10,
+    "currency": "MXN",
+    "payment_method": {
+        "type": "mx_speimx_bank"
+    }
+}

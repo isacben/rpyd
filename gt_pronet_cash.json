@@ -1,0 +1,7 @@
+{
+    "amount": 10,
+    "currency": "GTQ",
+    "payment_method": {
+        "type": "gt_pronet_cash"
+    }
+}
