@@ -7,7 +7,7 @@ CLI (Command Line Interface) to test Rapyd's Fintech As A Service  API. See the 
 This is a Python tool that depends on:
 
 * Python 3
-* Python requests lybrary
+* Python requests library
 
 ## Usage Example
 
