@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from utilities import make_request
 import json
 import argparse 
