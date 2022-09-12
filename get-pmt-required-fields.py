@@ -19,7 +19,24 @@ if args.all:
     print(json.dumps(response, indent=4))
     exit(0)
 
+print('> fields:')
 for r in response['data']['fields']:
+    s = f"{r['name']}, " \
+        f"{r['type']}, " \
+        f"is required {r['is_required']}, " \
+        f"{r['regex']}"
+    print(s)
+
+print('\n> payment_method_options:')
+for r in response['data']['payment_method_options']:
+    s = f"{r['name']}, " \
+        f"{r['type']}, " \
+        f"is required {r['is_required']}, " \
+        f"{r['regex']}"
+    print(s)
+
+print('\n> payment_options:')
+for r in response['data']['payment_options']:
     s = f"{r['name']}, " \
         f"{r['type']}, " \
         f"is required {r['is_required']}, " \
