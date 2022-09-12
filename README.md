@@ -31,7 +31,7 @@ options:
 Use the commands:
 
 ```
-# python3 create-payment.py mx_spei_bank.json sandbox
+# python3 create-payment.py usr/mx_spei_bank.json sandbox
 Do you want to create this payment? (y/n): y
 token: payment_f6c1b515863cba0e21b5be79d75e10c6
 amount: 10
