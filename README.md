@@ -13,7 +13,7 @@ This is a Python tool that depends on:
 
 See how the commands are used:
 
-```
+```console
 # python3 create-payment.py -h
 usage: create-payment.py [-h] [-a] filename env
 
@@ -30,7 +30,7 @@ options:
 
 Use the commands:
 
-```
+```console
 # python3 create-payment.py usr/mx_spei_bank.json sandbox
 Do you want to create this payment? (y/n): y
 token: payment_f6c1b515863cba0e21b5be79d75e10c6
