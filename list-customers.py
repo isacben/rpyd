@@ -3,10 +3,9 @@ from utilities import make_request
 import json
 import argparse 
 
-parser = argparse.ArgumentParser(description="Get Customers")
+parser = argparse.ArgumentParser(description="List Customers")
 parser.add_argument("env", help="the rapyd environment")
 parser.add_argument("-l", "--limit", help="the maximum number of customers to return", dest='limit', default=10, type=int)
-parser.add_argument("-a", "--all", help="outputs all rapyd's api response", action="store_true")
 
 args = parser.parse_args()
 
