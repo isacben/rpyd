@@ -23,6 +23,7 @@ if args.all:
 for r in response['data']:
     if args.filter == '' or args.filter in r['category']:
         s = f"{r['type']}, " \
+            f"{r['name']}, " \
             f"{r['category']}, " \
             f"{r['country']}, " \
             f"{r['currencies']}, "
