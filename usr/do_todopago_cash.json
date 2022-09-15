@@ -1,0 +1,7 @@
+{
+    "amount": 60,
+    "currency": "DOP",
+    "payment_method": {
+        "type": "do_todopago_cash"
+    }
+}
