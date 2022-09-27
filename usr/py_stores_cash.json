@@ -1,0 +1,7 @@
+{
+    "amount": 10,
+    "currency": "PYG",
+    "payment_method": {
+        "type": "py_stores_cash"
+    }
+}
