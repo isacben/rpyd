@@ -5,7 +5,7 @@ import json
 import argparse 
 
 parser = argparse.ArgumentParser(description="Create Payment")
-parser.add_argument("filename", help="the json file that contains the body")
+parser.add_argument("filename", help="the json file that contains the body; see https://docs.rapyd.net/build-with-rapyd/reference/payments#create-payment")
 parser.add_argument("env", help="the rapyd environment")
 parser.add_argument("-a", "--all", help="outputs all rapyd's api response", action="store_true")
 
