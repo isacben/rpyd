@@ -1,0 +1,12 @@
+{
+    "amount": 10000,
+    "currency": "COP",
+    "payment_method": {
+        "type": "co_cash_cash",
+        "fields": {
+            "tax": 15,
+            "documentnumber": "123456789"
+        }
+    },
+    "customer": ""
+}
