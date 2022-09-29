@@ -3,5 +3,6 @@
     "currency": "MXN",
     "payment_method": {
         "type": "mx_spei_bank"
-    }
+    },
+    "customer": ""
 }

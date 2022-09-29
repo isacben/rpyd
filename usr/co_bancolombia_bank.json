@@ -1,0 +1,7 @@
+{
+    "amount": 100000,
+    "currency": "COP",
+    "payment_method": {
+        "type": "co_bancolombia_bank"
+    }
+}
