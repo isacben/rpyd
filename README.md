@@ -20,7 +20,7 @@ usage: create-payment.py [-h] [-a] filename env
 Create Payment
 
 positional arguments:
-  filename    the json file that contains the body
+  filename    the json file that contains the body; see https://docs.rapyd.net/build-with-rapyd/reference/payments#create-payment
   env         the rapyd environment
 
 options:
