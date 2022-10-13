@@ -1,5 +1,5 @@
 {
-    "amount": 10000,
+    "amount": 10111,
     "currency": "COP",
     "payment_method": {
         "type": "co_cash_cash",
