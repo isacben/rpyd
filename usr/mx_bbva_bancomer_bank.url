@@ -1,1 +1,1 @@
-mx_bbva_bancomer_bank/details?sender_country=US&sender_currency=USD&beneficiary_country=MX&payout_currency=MXN&sender_entity_type=company&beneficiary_entity_type=individual&payout_amount=1000
+mx_bbva_bancomer_bank/details?sender_country=MX&sender_currency=MXN&beneficiary_country=MX&payout_currency=MXN&sender_entity_type=company&beneficiary_entity_type=company&payout_amount=1000

@@ -1,0 +1,7 @@
+{
+    "amount": 50000,
+    "currency": "COP",
+    "payment_method": {
+        "type": "co_bancofalabella_bank"
+    }
+}

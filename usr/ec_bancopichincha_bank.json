@@ -1,0 +1,7 @@
+{
+    "amount": 10,
+    "currency": "USD",
+    "payment_method": {
+        "type": "ec_bancopichincha_bank"
+    }
+}
