@@ -11,9 +11,9 @@ parser.add_argument("-a", "--all", help="outputs all rapyd's api response", acti
 
 args = parser.parse_args()
 
-confirm = input("Do you want to create this payout? (y/n): ")
+confirm = input("Do you want to create this payout? (yes5972/n): ")
 
-if confirm.lower() != 'y':
+if confirm.lower() != 'yes5972':
     print("Payout not created")
     exit(0)
 
