@@ -40,3 +40,13 @@ status: ACT
 textual_codes: {}
 redirect_url:
 ```
+
+It is possible to combine the output of the scripts with Linux commands. For example:
+
+```console
+# python3 ./list-pmts.py 'country=co' pam -f bank | awk -F ',' '{print $1, $7}'
+co_bancolombia_bank  'maximum_amount': 40000000
+co_bancofalabella_bank  'maximum_amount': 40000000
+co_bancocajasocial_lcl_bank  'maximum_amount': None
+co_bancodeoccidente_lcl_bank  'maximum_amount': None
+```
