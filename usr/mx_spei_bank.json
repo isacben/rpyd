@@ -4,15 +4,5 @@
     "payment_method": {
         "type": "mx_spei_bank"
     },
-    "ewallets": [
-        {
-            "ewallet": "ewallet_0e93136721120f16d2332682306f4e49",
-            "amount": 80
-        }, 
-        {
-            "ewallet": "ewallet_cdeb8a21aa1ea5b84cfae582b693aac5",
-            "amount": 20
-        }
-    ],
-    "customer": "cus_b5621165cbddba4ccd4fb8dfab31b887"
+    "customer": ""
 }

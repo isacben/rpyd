@@ -26,6 +26,7 @@ for r in response['data']:
             f"{r['name']}, " \
             f"{r['category']}, " \
             f"{r['country']}, " \
-            f"{r['currencies']}, "
+            f"{r['currencies']}, "\
+            f"{r['amount_range_per_currency']}"
        
         print(s)
