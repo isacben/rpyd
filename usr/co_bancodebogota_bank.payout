@@ -1,0 +1,41 @@
+{
+    "beneficiary":{
+        "address": "1 Main Street",
+        "city": "Anytown",
+        "country": "US",
+        "first_name": "Henry",
+        "last_name": "Tan",
+        "state": "NY",
+        "postcode": "10101",
+        "account_number": "11111000000222",
+        "bank_account_type": "Checking",
+        "identification_type": "international_passport",
+        "identification_value": "1234567891"
+    }, 
+    "beneficiary_country": "CO",
+    "beneficiary_entity_type": "individual",
+    "confirm_automatically": false,
+    "description": "Salary",
+    "ewallet": "",
+    "sender_amount": "10",
+    "payout_currency": "COP",
+    "payout_method_type": "co_bancodebogota_bank",
+    "sender":{
+        "company_name": "CREDICORP",
+        "purpose_code": "salary"
+    }, 
+    "sender_country": "US",
+    "sender_currency": "USD",
+    "sender_entity_type": "company",
+    "statement_descriptor": "Salary-monthly-part-time",
+    "metadata": {
+        "merchant_defined": true
+    },
+    "payout_fees": {
+        "transaction_fee": {
+            "calc_type": "net",
+            "fee_type": "absolute",
+            "value": 2
+        }
+    }
+}

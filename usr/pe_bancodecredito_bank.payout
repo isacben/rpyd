@@ -1,19 +1,26 @@
 {
-    "beneficiary": "beneficiary_1434022007ec8026bf7e38583f5332d0",
+    "beneficiary": "",
     "beneficiary_country": "PE",
     "beneficiary_entity_type": "individual",
     "confirm_automatically": true,
     "description": "Salary",
-    "ewallet": "ewallet_de9ac73c023ab79eaae10aeb5a118113",
+    "ewallet": "",
     "sender_amount": "10",
     "payout_currency": "PEN",
     "payout_method_type": "pe_bancodecredito_bank",
-    "sender": "sender_bc0df49e4fae93af176e7de372179874",
+    "sender": "",
     "sender_country": "US",
     "sender_currency": "USD",
     "sender_entity_type": "company",
     "statement_descriptor": "Salary-monthly-part-time",
     "metadata": {
         "merchant_defined": true
+    },
+    "payout_fees": {
+        "transaction_fee": {
+            "calc_type": "net",
+            "fee_type": "absolute",
+            "value": 2
+        }
     }
 }
