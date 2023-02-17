@@ -13,7 +13,7 @@ This is a Python tool that depends on:
 
 Create environment variables to store the Sandbox and Production Rapyd keys.
 
-Get your keys here -> https://dashboard.rapyd.net
+Get your keys here -> https://dashboard.rapyd.net/sign-up
 
 For sandbox:
 
@@ -72,3 +72,6 @@ co_bancofalabella_bank  'maximum_amount': 40000000
 co_bancocajasocial_lcl_bank  'maximum_amount': None
 co_bancodeoccidente_lcl_bank  'maximum_amount': None
 ```
+
+
+If you need more support ask your questions in our community -> https://community.rapyd.net
