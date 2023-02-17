@@ -9,6 +9,26 @@ This is a Python tool that depends on:
 * Python 3
 * Python requests library
 
+## Rapyd API Keys
+
+Create environment variables to store the Sandbox and Production Rapyd keys.
+
+For sandbox:
+
+```
+export sandbox='YOUR-ACCESS-KEY,YOUR-SECRET-KEY,sandboxapi'
+```
+
+For production:
+
+```
+export production='YOUR-ACCESS-KEY,YOUR-SECRET-KEY,api'
+```
+
+Note that the last parameters in the environment variables are `sandboxapi` for Sandbox and `api` for Production.
+The name of the environment variables is irrelevant; however the exact same variable name has to be used to
+run the scripts (see example below).
+
 ## Usage Example
 
 See how the commands are used:
