@@ -13,6 +13,8 @@ This is a Python tool that depends on:
 
 Create environment variables to store the Sandbox and Production Rapyd keys.
 
+Get your keys here -> https://dashboard.rapyd.net
+
 For sandbox:
 
 ```
