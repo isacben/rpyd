@@ -72,4 +72,6 @@ co_bancofalabella_bank  'maximum_amount': 40000000
 co_bancocajasocial_lcl_bank  'maximum_amount': None
 co_bancodeoccidente_lcl_bank  'maximum_amount': None
 ```
+
+
 If you need more support ask your questions in our community -> https://community.rapyd.net
